@@ -14,10 +14,6 @@ slidenumbers: true
 
 ---
 
-![](http://media.giphy.com/media/10PcMWwtZSYk2k/giphy.gif)
-
----
-
 # [fit] :heart: ~~WebStorm~~ Vim
 
 ---
@@ -28,7 +24,7 @@ slidenumbers: true
 
 ---
 
-# [fit] But I NEED and IDE
+# [fit] But I NEED an IDE
 
 ![](http://www.hollywoodreporter.com/sites/default/files/imagecache/thumbnail_570x321/2012/04/dawson_crying.jpg)
 
@@ -130,6 +126,8 @@ slidenumbers: true
 * the DOT command
 * macros
 
+![](http://omilia.com/wp-content/uploads/our-secret-sauce.png)
+
 ---
 
 # [fit] Text objects and motions
@@ -147,7 +145,7 @@ slidenumbers: true
 * `p` - paragraphs
 * `t` - tags[^1]
 
-![right](http://media.giphy.com/media/XXUAaLZrjTTu8/giphy.gif)
+![left](http://media.giphy.com/media/XXUAaLZrjTTu8/giphy.gif)
 
 [^1]: tags available in XML/HTML files
 
@@ -166,7 +164,7 @@ slidenumbers: true
 ---
 
 # [fit] Combine with comands
-![](http://media.giphy.com/media/BU2uWBp37Lr56/giphy.gif)
+![](http://wealthwrapup.razrtek.netdna-cdn.com/wp-content/uploads/2014/08/sonny_cher_msn.jpg)
 
 ---
 
@@ -213,6 +211,8 @@ slidenumbers: true
 ---
 
 # [fit] Repeat the last command
+
+![](http://media.giphy.com/media/3rgXBCsCWGS82uYKiI/giphy.gif)
 
 ---
 
@@ -413,7 +413,7 @@ nmap <leader>z :call VimuxRunCommand("grunt test")<cr>
 * Steal ideas from others
 * [nicknisi/dotfiles](https://github.com/nicknisi/dotfiles)
 
-![left 200%](http://media.giphy.com/media/dbZlf5GABvIPu/giphy.gif)
+![left](http://d.pr/i/19nW2+)
 
 ---
 
