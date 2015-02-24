@@ -387,7 +387,7 @@ nmap <leader>z :call VimuxRunCommand("grunt test")<cr>
 ---
 
 # [fit] I :heart: vim
-## [fit] and I think you would, too
+## [fit] and I think you will, too
 
 --- 
 
@@ -422,3 +422,4 @@ nmap <leader>z :call VimuxRunCommand("grunt test")<cr>
 ---
 
 # [fit] :heart:
+# [fit] <https://github.com/nicknisi/vim-workshop>
