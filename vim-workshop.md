@@ -330,7 +330,7 @@ slidenumbers: true
 
 ---
 
-# [fit] `.tmux.conf` - tmux configuration
+# [fit] `~/.tmux.conf` - tmux configuration
 
 * configure tmux
 
