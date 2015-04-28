@@ -18,9 +18,11 @@ slidenumbers: true
 
 ---
 
-![](http://nicknisi.com/images/beef_nick.png)
+![fit](http://d.pr/i/1g1Zw+)
 
-## [@nicknisi](https://twitter.com/nicknisi)
+----
+
+# [fit] :heart: ~~WebStorm~~ ~~Vim~~ Minecraft
 
 ---
 
@@ -40,12 +42,22 @@ slidenumbers: true
 
 * highly customizable
 * runs everywhere
-* works with many programming languages
+* works with any programming languages
 * scriptable
 
 ---
 
+![inline](http://d.pr/i/1co02+)
+
+---
+
+## start the timer
+
+---
+
 # [fit] Install vim
+
+![175%](http://gobazzar.com/media/catalog/product/cache/1/image/1200x1200/649f3efccd88c8d101f4ff5dd687d30b/v/i/vim_bar_big_300_gms.jpg)
 
 ---
 
@@ -175,7 +187,7 @@ slidenumbers: true
 * `y` - yank (copy)
 * `v` - visually select
 
-![right fit](http://media.giphy.com/media/K9T0bcKtsOY/giphy.gif)
+![right fit](http://media.giphy.com/media/RL6C0dWNh7aFO/giphy.gif)
 
 ---
 
@@ -222,7 +234,7 @@ slidenumbers: true
 
 # [fit] but it's powerful
 
-![](http://www.spring.org.uk/images/tall.jpg)
+![](http://www.jeffbullas.com/wp-content/uploads/2013/12/9-Simple-and-Powerful-Ways-to-Get-More-Retweets-on-Twitter-Report-.jpg)
 
 ---
 
@@ -327,6 +339,7 @@ slidenumbers: true
 ---
 
 # [fit] `tmux new-session -s pasta`
+![](http://st.depositphotos.com/2650707/3938/v/450/depositphotos_39384587-Businessman-eating-pasta-at-home-and-working-on-computer.jpg)
 
 ---
 
@@ -412,6 +425,11 @@ nmap <leader>z :call VimuxRunCommand("grunt test")<cr>
 * Share your configuration
 * Steal ideas from others
 * [nicknisi/dotfiles](https://github.com/nicknisi/dotfiles)
+
+## Others
+
+* [bryanforbes/dotfiles](https://github.com/bryanforbes/dotfiles)
+* [jason0x43/dotfiles](https://github.com/jason0x43/dotfiles)
 
 ![left](http://d.pr/i/19nW2+)
 
