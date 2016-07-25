@@ -74,3 +74,10 @@ Check out the [presentation PDF](vim-workshop.pdf).
 	```
 
 Got questions? I'm always excited to [talk](https://twitter.com/nicknisi) about vim + tmux!
+
+## Trouble Shooting 
+1. If your tmux session is closed immediatly and you see the [exited] message in the terminal you are probably missing the 	`reattach-to-user-namespace` package to install it simply do
+
+	```shell
+	brew install reattach-to-user-namespace
+	```
