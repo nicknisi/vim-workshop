@@ -7,13 +7,12 @@ filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
-
 " let vundle manage vundle
 Plugin 'gmarik/vundle'
 
 " utilities
-Plugin 'kien/ctrlp.vim' " fuzzy find files
-Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
+"Plugin 'kien/ctrlp.vim' " fuzzy find files
+"Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'benmills/vimux'
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
@@ -28,8 +27,14 @@ Plugin 'jelera/vim-javascript-syntax'
 call vundle#end()
 filetype plugin indent on
 
+"basic setting
 set nocompatible " not compatible with vi
 set autoread " detect when a file is changed
+set ruler " show thepostion of the course
+set showcmd "show the cmd that you typed
+set showmode "show current model
+set history=2000 "the capacity of command histroy 
+set nowrap "set the line text nowrap
 
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
@@ -45,6 +50,7 @@ set softtabstop=4 " edit as if the tabs are 4 characters wide
 set shiftwidth=4 " number of spaces to use for indent and unindent
 set shiftround " round indent to a multiple of 'shiftwidth'
 
+" change default register to clipboard
 set clipboard=unnamed
 
 " faster redrawing
@@ -86,11 +92,13 @@ set number
 set autoindent " automatically set indent of new line
 set smartindent
 
-set laststatus=2 " show the satus line all the time
+"set laststatus=2 " show the satus line all the time
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set pastetoggle=<F2> "switch of indent temperily
 
 map <leader>ev :e! ~/.vimrc<cr> " edit ~/.vimrc
 
@@ -133,26 +141,26 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " close NERDTree after a file is opened
-let g:NERDTreeQuitOnOpen=0
+"let g:NERDTreeQuitOnOpen=0
 " show hidden files in NERDTree
-let NERDTreeShowHidden=1
+"let NERDTreeShowHidden=1
 " Toggle NERDTree
-nmap <silent> <leader>k :NERDTreeToggle<cr>
+"nmap <silent> <leader>k :NERDTreeToggle<cr>
 " expand to the path of the file in the current buffer
-nmap <silent> <leader>y :NERDTreeFind<cr>
+"nmap <silent> <leader>y :NERDTreeFind<cr>
 
 " map fuzzyfinder (CtrlP) plugin
 " nmap <silent> <leader>t :CtrlP<cr>
-nmap <silent> <leader>r :CtrlPBuffer<cr>
-let g:ctrlp_map='<leader>t'
-let g:ctrlp_dotfiles=1
-let g:ctrlp_working_path_mode = 'ra'
+"nmap <silent> <leader>r :CtrlPBuffer<cr>
+"let g:ctrlp_map='<leader>t'
+"let g:ctrlp_dotfiles=1
+"let g:ctrlp_working_path_mode = 'ra'
 
 " CtrlP ignore patterns
-let g:ctrlp_custom_ignore = {
-            \ 'dir': '\.git$\|node_modules$\|\.hg$\|\.svn$',
-            \ 'file': '\.exe$\|\.so$'
-            \ }
+"let g:ctrlp_custom_ignore = {
+            "\ 'dir': '\.git$\|node_modules$\|\.hg$\|\.svn$',
+            "\ 'file': '\.exe$\|\.so$'
+            "\ }
 
 " search the nearest ancestor that contains .git, .hg, .svn
-let g:ctrlp_working_path_mode = 2
+"let g:ctrlp_working_path_mode = 2
