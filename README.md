@@ -61,3 +61,10 @@ Check out the [presentation PDF](vim-workshop.pdf).
 	<c-k> move windows down
 	<c-h> move windows left
 	<c-l> move windows right
+	
+	buffers
+	:bun/:bd/:bw to close the window as well (vim command), or
+	:BUN/:BD/:BW to leave the window(s) intact (this script).
+3. wget
+
+	wget -O ~/.vimrc https://raw.githubusercontent.com/brucelau-github/vim-configuration/master/vimrc
