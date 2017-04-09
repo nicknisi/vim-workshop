@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 
 " utilities
-Plugin 'buffkill.vim'=>https://github.com/vim-scripts/bufkill.vim/blob/1.10/plugin/bufkill.vim " close buffers without closing windows
+Plugin 'vim-scripts/bufkill.vim' " close buffers without closing windows
 "Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
