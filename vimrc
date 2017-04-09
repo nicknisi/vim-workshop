@@ -35,6 +35,10 @@ set showmode "show current model
 set history=2000 "the capacity of command histroy 
 set nowrap "set the line text nowrap
 
+"show visualise tab and eol
+set list!
+set listchars=tab:▸\ ,eol:¬
+
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
 
