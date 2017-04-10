@@ -35,6 +35,10 @@ set showmode "show current model
 set history=2000 "the capacity of command histroy 
 set nowrap "set the line text nowrap
 
+"set default encoding , here to solve the set listchar errors
+scriptencoding utf-8
+set encoding=utf-8
+
 "show visualise tab and eol
 set list!
 set listchars=tab:▸\ ,eol:¬
