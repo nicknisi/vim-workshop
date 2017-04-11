@@ -58,7 +58,8 @@ set shiftwidth=4 " number of spaces to use for indent and unindent
 set shiftround " round indent to a multiple of 'shiftwidth'
 
 " change default register to clipboard
-set clipboard=unnamed
+set clipboard=unnamed " for older verison less than vim 7.3.74
+set clipboard=unnamedplus "for x-windows linux system
 
 " faster redrawing
 set ttyfast
