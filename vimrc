@@ -112,6 +112,8 @@ map <leader>ev :e! ~/.vimrc<cr> " edit ~/.vimrc
 
 map <leader>wc :wincmd q<cr>
 
+" escapte to normal model from insert mode by press ,,
+inoremap ,, <esc>
 " moving up and down work as you would expect
 nnoremap <silent> j gj
 nnoremap <silent> k gk
