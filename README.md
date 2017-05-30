@@ -11,7 +11,7 @@ Check out the [presentation PDF](vim-workshop.pdf).
 	Likely, vim is already installed on you machine. If you're on a mac, you can get the latest vim from Homebrew.
 
 	```shell
-	brew install macvim --override-system-vim
+	sudo apt install vim
 	```
 
 1. Create a vimrc
@@ -48,36 +48,23 @@ Check out the [presentation PDF](vim-workshop.pdf).
 	filetype plugin indent on
 	```
 
-1. Start vim and install default plugins
+1. Start vim and install plugins
 
 	```shell
-	vim +PluginInstall
+	vim
+	:PluginInstall //install plugins
+	:PluginClean //clean uselesss plugin
 	```
+2. how key mapping
 
-1. Install tmux
+	<c-j> move windows up
+	<c-k> move windows down
+	<c-h> move windows left
+	<c-l> move windows right
+	
+	buffers
+	:bun/:bd/:bw to close the window as well (vim command), or
+	:BUN/:BD/:BW to leave the window(s) intact (this script).
+3. wget
 
-	tmux can be installed from Homebrew on OSX
-	```shell
-	brew install tmux
-	```
-
-1. Add a tmux config
-
-	```shell
-	cp tmux.conf ~/.tmux.conf
-	```
-
-1. Connect to a new tmux session
-
-	```shell
-	tmux new-session -s pasta
-	```
-
-Got questions? I'm always excited to [talk](https://twitter.com/nicknisi) about vim + tmux!
-
-## Trouble Shooting 
-1. If your tmux session is closed immediatly and you see the [exited] message in the terminal you are probably missing the 	`reattach-to-user-namespace` package to install it simply do
-
-	```shell
-	brew install reattach-to-user-namespace
-	```
+	wget -O ~/.vimrc https://raw.githubusercontent.com/brucelau-github/vim-configuration/master/vimrc
