@@ -101,8 +101,8 @@ set autoindent " automatically set indent of new line
 set smartindent
 "here we highlight trailing white space and black line with none words
 match ErrorMsg '\s\+$'
-" remove trailing whitespace
-nnoremap <Leader>rtw :%s/\s\+$//e<CR>
+" remove trailing whitespace short for trim white space
+nnoremap <Leader>tr :%s/\s\+$//e<CR>
 
 "set laststatus=2 " show the satus line all the time
 
