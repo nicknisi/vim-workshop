@@ -15,7 +15,7 @@ Plugin 'vim-scripts/bufkill.vim' " close buffers without closing windows
 "Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
-
+Plugin 'vim-syntastic/syntastic' "syntastic checkers
 " colorschemes
 Plugin 'chriskempson/base16-vim'
 
@@ -154,6 +154,18 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" syntastic settings begin
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+" the error window will be automatically opened when errors are detected, and closed when none are detected.
+let g:syntastic_auto_loc_list = 1
+" syntastic settings end
 
 " close NERDTree after a file is opened
 "let g:NERDTreeQuitOnOpen=0
