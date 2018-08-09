@@ -107,7 +107,7 @@ slidenumbers: true
 ---
 
 # [fit] h j k l
-## [fit] left up down right
+## [fit] left down up right
 
 ---
 
