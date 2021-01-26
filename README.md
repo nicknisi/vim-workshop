@@ -1,5 +1,7 @@
 # Vim workshop
 
+**Note:** This workshop is a bit dated, and as such, the instructions might not work as expected. For a modern look at a vim installation, check out my [dotfiles](https://github.com/nicknisi/dotfiles). This repository may be archived soon.
+
 This repo contains the slides for my vim talk. Additionally, I have provided a starter vimrc and tmux.conf. These may be a good starting point for someone getting into vim and tmux.
 
 Check out the [presentation PDF](vim-workshop.pdf).
